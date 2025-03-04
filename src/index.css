@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import "tailwindcss";
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 30s linear infinite;
+  min-width: 200%;
+}
+
+.text-outline-white {
+  text-shadow: 
+    -2px -2px 0 white,  
+    2px -2px 0 white,  
+    -2px 2px 0 white,  
+    2px 2px 0 white;
+}
+
+.syne {
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
