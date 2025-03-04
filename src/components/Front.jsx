@@ -1,6 +1,6 @@
 import React from 'react'
-import Image1 from '../images/image1.png'
-import Image2 from '../images/image2.png'
+import Image1 from '../images/Image1.png'
+import Image2 from '../images/Image2.png'
 import Icon1 from '../images/Icon1.png'
 import Icon2 from '../images/Icon2.png'
 import Icon3 from '../images/Icon3.png'
@@ -24,7 +24,7 @@ function Front() {
             </div>
           </div>
 
-            <div className="flex flex-col lg:flex-row items-center justify-between pl-2 lg:pl-40 pr-2 lg:pr-48 bg-black text-white gap-10 lg:gap-0">
+            <div className="flex flex-col lg:flex-row items-center justify-between pl-2 lg:pl-40 pr-2 lg:pr-48 bg-black text-white gap-10 lg:gap-I">
                 <img src={Icon1} alt="Icon1" className='w-[50%] lg:w-28 h-14 lg:h-9' />
                 <img src={Icon2} alt="Icon2" className='w-[50%] lg:w-28 h-14 lg:h-9' />
                 <img src={Icon3} alt="Icon3" className='w-[50%] lg:w-28 h-14 lg:h-9' />
