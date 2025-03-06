@@ -46,7 +46,7 @@ const Questions = () => {
               </span>
             </button>
 
-            {/* Answer */}
+            {/* Answers*/}
             <div
               className={`overflow-hidden transition-all ${
                 openIndex === index ? "max-h-40 mt-2 text-gray-300" : "max-h-0"
